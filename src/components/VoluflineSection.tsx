@@ -5,7 +5,7 @@ const features = [{
   description: "Scientifically validated to enhance lip volume naturally and provide deep hydration for fuller-looking lips."
 }, {
   icon: Beaker,
-  title: "Adifyline for Eyes",
+  title: "Fast Results",
   description: "Advanced peptide complex that firms, rejuvenates, and reduces signs of aging around the delicate eye area."
 }, {
   icon: TrendingUp,
