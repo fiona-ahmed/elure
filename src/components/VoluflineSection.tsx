@@ -2,8 +2,8 @@ import { Syringe, Ban, Beaker, TrendingUp } from "lucide-react";
 
 const NoInjectionIcon = ({ className, size = 24 }: { className?: string; size?: number }) => (
   <div className="relative">
-    <Syringe className={className} size={size} />
-    <Ban className="absolute inset-0 text-red-500" size={size} />
+    <Syringe className={className} size={size * 0.7} />
+    <Ban className={`absolute inset-0 ${className}`} size={size * 1.2} />
   </div>
 );
 
