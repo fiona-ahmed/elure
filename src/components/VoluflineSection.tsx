@@ -1,4 +1,4 @@
-import { Syringe, Ban, Beaker, TrendingUp } from "lucide-react";
+import { Syringe, Ban, Check, TrendingUp } from "lucide-react";
 
 const NoInjectionIcon = ({ className, size = 24 }: { className?: string; size?: number }) => (
   <div className="relative">
@@ -12,7 +12,7 @@ const features = [{
   title: "Safe Alternative",
   description: "Safe, non-invasive alternative to injectable treatments for natural enhancement"
 }, {
-  icon: Beaker,
+  icon: Check,
   title: "Fast Results",
   description: "Visible results within 4-8 weeks of consistent daily application"
 }, {
@@ -32,7 +32,7 @@ export const VoluflineSection = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => <div key={feature.title} className="text-center group hover:transform hover:-translate-y-2 transition-luxury">
               <div className="w-16 h-16 mx-auto mb-6 bg-luxury-gradient rounded-2xl flex items-center justify-center group-hover:shadow-luxury transition-luxury">
-                <feature.icon className="text-primary" size={24} />
+                <feature.icon className={feature.title === "Fast Results" ? "text-amber-700" : "text-primary"} size={24} />
               </div>
               
               <h3 className="text-xl font-semibold text-foreground mb-4">
