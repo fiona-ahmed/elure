@@ -9,7 +9,7 @@ const features = [{
   description: "Advanced peptide complex that firms, rejuvenates, and reduces signs of aging around the delicate eye area."
 }, {
   icon: TrendingUp,
-  title: "Visible Results",
+  title: "Proven Ingredients",
   description: "Experience noticeable improvement in lip fullness and hydration within weeks of consistent use."
 }];
 export const VoluflineSection = () => {
