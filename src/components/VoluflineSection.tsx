@@ -6,7 +6,7 @@ const features = [{
 }, {
   icon: Beaker,
   title: "Fast Results",
-  description: "Advanced peptide complex that firms, rejuvenates, and reduces signs of aging around the delicate eye area."
+  description: "Visible results within 4-8 weeks of consistent daily application"
 }, {
   icon: TrendingUp,
   title: "Proven Ingredients",
