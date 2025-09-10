@@ -24,7 +24,7 @@ export const ProductShowcase = () => {
         <div className="grid md:grid-cols-2 gap-12">
           {products.map((product, index) => <div key={product.name} className="group bg-card/80 backdrop-blur-sm rounded-2xl p-8 shadow-luxury border border-luxury/20 hover:shadow-elegant transform transition-luxury hover:-translate-y-1">
               <div className="aspect-[4/5] rounded-xl overflow-hidden mb-6 bg-luxury-muted">
-                <img src={product.image} alt={product.name} className="w-full h-full object-contain group-hover:scale-105 transition-luxury" />
+                <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-luxury" />
               </div>
               
               <div className="space-y-4">
