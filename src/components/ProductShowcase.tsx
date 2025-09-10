@@ -1,4 +1,3 @@
-import eyeCreamImage from "@/assets/eye-cream-new.jpg";
 import { Sparkles } from "lucide-react";
 const products = [{
   name: "Plumping Lip Treatment",
@@ -9,7 +8,7 @@ const products = [{
 }, {
   name: "Nourishing Eye Treatment",
   description: "Premium anti-aging eye treatment combining powerful peptides with botanical extracts to rejuvenate and restore the eye contour.",
-  image: eyeCreamImage,
+  image: "/lovable-uploads/be499a90-4643-487d-977b-8105a331515d.png",
   size: "20ml",
   benefits: ["Reduces appearance of fine lines and wrinkles", "Diminishes dark circles and puffiness", "Firms and tightens delicate eye area skin"]
 }];
