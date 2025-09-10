@@ -12,7 +12,7 @@ const products = [{
   description: "Premium anti-aging eye treatment combining powerful peptides with botanical extracts to rejuvenate and restore the eye contour.",
   image: eyeCreamImage,
   size: "20ml",
-  benefits: ["Reduces fine lines", "Brightens dark circles", "Firms skin"]
+  benefits: ["Reduces appearance of fine lines and wrinkles", "Diminishes dark circles and puffiness", "Firms and tightens delicate eye area skin"]
 }];
 export const ProductShowcase = () => {
   return <section className="py-20 px-4 bg-hero-gradient">
