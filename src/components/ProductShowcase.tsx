@@ -3,7 +3,7 @@ import eyeCreamImage from "@/assets/eye-cream-new.jpg";
 import { Sparkles, Star } from "lucide-react";
 const products = [{
   name: "Plumping Lip Treatment",
-  description: "Advanced lip volumizing treatment featuring Volufiline technology that works over time to naturally plump and hydrate lips.",
+  description: "Volumizing lip treatment with clinically-proven peptides to gradually enhance natural lip volume and provide lasting hydration.",
   image: lipBalmImage,
   size: "15ml",
   benefits: ["Volume enhancement", "Deep hydration", "Smooth texture"]
