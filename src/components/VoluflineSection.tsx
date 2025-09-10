@@ -1,6 +1,6 @@
-import { Atom, Beaker, TrendingUp } from "lucide-react";
+import { Shield, Beaker, TrendingUp } from "lucide-react";
 const features = [{
-  icon: Atom,
+  icon: Shield,
   title: "Safe Alternative",
   description: "Safe, non-invasive alternative to injectable treatments for natural enhancement"
 }, {
