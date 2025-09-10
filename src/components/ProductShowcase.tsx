@@ -1,6 +1,6 @@
 import lipBalmImage from "@/assets/lip-balm-new.jpg";
 import eyeCreamImage from "@/assets/eye-cream-new.jpg";
-import { Sparkles, Star } from "lucide-react";
+import { Sparkles } from "lucide-react";
 const products = [{
   name: "Plumping Lip Treatment",
   description: "Volumizing lip treatment with clinically-proven peptides to gradually enhance natural lip volume and provide lasting hydration.",
@@ -43,8 +43,7 @@ export const ProductShowcase = () => {
                 </p>
                 
                 <div className="space-y-2">
-                  <h4 className="font-medium text-foreground flex items-center gap-2">
-                    <Star className="text-luxury" size={16} />
+                  <h4 className="font-medium text-foreground ml-4">
                     Benefits
                   </h4>
                   <ul className="space-y-1">
