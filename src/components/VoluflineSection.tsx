@@ -1,4 +1,4 @@
-import { Check, Clock, TrendingUp } from "lucide-react";
+import { Check, Clock, Beaker } from "lucide-react";
 
 const features = [{
   icon: Check,
@@ -9,7 +9,7 @@ const features = [{
   title: "Fast Results",
   description: "Visible results within 4-8 weeks of consistent daily application"
 }, {
-  icon: TrendingUp,
+  icon: Beaker,
   title: "Proven Ingredients",
   description: "Clinically-studied peptides proven to enhance volume and skin texture"
 }];
