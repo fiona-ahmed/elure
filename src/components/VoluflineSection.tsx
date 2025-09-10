@@ -7,7 +7,7 @@ const features = [{
 }, {
   icon: Clock,
   title: "Fast Results",
-  description: "Visible results within 4-8 weeks of consistent daily application"
+  description: "Ingredient studies have shown visible results as early as 4-8 weeks of consistent daily application"
 }, {
   icon: Beaker,
   title: "Proven Ingredients",
