@@ -1,7 +1,7 @@
 import { Atom, Beaker, TrendingUp } from "lucide-react";
 const features = [{
   icon: Atom,
-  title: "Volufiline for Lips",
+  title: "Safe Alternative",
   description: "Scientifically validated to enhance lip volume naturally and provide deep hydration for fuller-looking lips."
 }, {
   icon: Beaker,
