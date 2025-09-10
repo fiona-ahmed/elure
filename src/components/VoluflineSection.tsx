@@ -1,6 +1,14 @@
-import { Ban, Beaker, TrendingUp } from "lucide-react";
+import { Syringe, Ban, Beaker, TrendingUp } from "lucide-react";
+
+const NoInjectionIcon = ({ className, size = 24 }: { className?: string; size?: number }) => (
+  <div className="relative">
+    <Syringe className={className} size={size} />
+    <Ban className="absolute inset-0 text-red-500" size={size} />
+  </div>
+);
+
 const features = [{
-  icon: Ban,
+  icon: NoInjectionIcon,
   title: "Safe Alternative",
   description: "Safe, non-invasive alternative to injectable treatments for natural enhancement"
 }, {
