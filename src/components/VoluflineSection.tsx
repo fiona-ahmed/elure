@@ -10,7 +10,7 @@ const features = [{
 }, {
   icon: TrendingUp,
   title: "Proven Ingredients",
-  description: "Experience noticeable improvement in lip fullness and hydration within weeks of consistent use."
+  description: "Clinically-studied peptides proven to enhance volume and skin texture"
 }];
 export const VoluflineSection = () => {
   return <section className="py-20 px-4 bg-luxury-muted/30">
