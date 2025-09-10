@@ -25,7 +25,7 @@ export const VoluflineSection = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => <div key={feature.title} className="text-center group hover:transform hover:-translate-y-2 transition-luxury">
               <div className="w-16 h-16 mx-auto mb-6 bg-luxury-gradient rounded-2xl flex items-center justify-center group-hover:shadow-luxury transition-luxury">
-                <feature.icon className="text-amber-700" size={24} />
+                <feature.icon className="text-foreground" size={24} />
               </div>
               
               <h3 className="text-xl font-semibold text-foreground mb-4">
