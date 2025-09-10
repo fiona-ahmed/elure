@@ -9,7 +9,7 @@ const products = [{
   benefits: ["Volume enhancement", "Deep hydration", "Smooth texture"]
 }, {
   name: "Nourishing Eye Treatment",
-  description: "Luxurious anti-aging eye treatment formulated with Adifyline peptides and botanical extracts for youthful-looking eyes.",
+  description: "Premium anti-aging eye treatment combining powerful peptides with botanical extracts to rejuvenate and restore the eye contour.",
   image: eyeCreamImage,
   size: "20ml",
   benefits: ["Reduces fine lines", "Brightens dark circles", "Firms skin"]
