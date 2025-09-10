@@ -1,10 +1,9 @@
-import plumpingLipImage from "@/assets/plumping-lip-treatment.jpg";
 import eyeCreamImage from "@/assets/eye-cream-new.jpg";
 import { Sparkles } from "lucide-react";
 const products = [{
   name: "Plumping Lip Treatment",
   description: "Volumizing lip treatment with clinically-proven peptides to gradually enhance natural lip volume and provide lasting hydration.",
-  image: plumpingLipImage,
+  image: "/lovable-uploads/4963e39b-9203-42e0-9b10-80f7562b2db2.png",
   size: "15ml",
   benefits: ["Gradually enhances lip volume and fullness", "Provides deep, long-lasting hydration", "Smooths and softens lip texture"]
 }, {
