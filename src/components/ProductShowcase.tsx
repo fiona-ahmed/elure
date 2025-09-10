@@ -43,7 +43,7 @@ export const ProductShowcase = () => {
                 </p>
                 
                 <div className="space-y-2">
-                  <h4 className="font-medium text-foreground ml-4">
+                  <h4 className="font-medium text-foreground">
                     Benefits
                   </h4>
                   <ul className="space-y-1">
