@@ -6,7 +6,7 @@ const products = [{
   description: "Volumizing lip treatment with clinically-proven peptides to gradually enhance natural lip volume and provide lasting hydration.",
   image: lipBalmImage,
   size: "15ml",
-  benefits: ["Volume enhancement", "Deep hydration", "Smooth texture"]
+  benefits: ["Gradually enhances lip volume and fullness", "Provides deep, long-lasting hydration", "Smooths and softens lip texture"]
 }, {
   name: "Nourishing Eye Treatment",
   description: "Premium anti-aging eye treatment combining powerful peptides with botanical extracts to rejuvenate and restore the eye contour.",
