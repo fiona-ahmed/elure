@@ -2,7 +2,7 @@ import { Atom, Beaker, TrendingUp } from "lucide-react";
 const features = [{
   icon: Atom,
   title: "Safe Alternative",
-  description: "Scientifically validated to enhance lip volume naturally and provide deep hydration for fuller-looking lips."
+  description: "Safe, non-invasive alternative to injectable treatments for natural enhancement"
 }, {
   icon: Beaker,
   title: "Fast Results",
