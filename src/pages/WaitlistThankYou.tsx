@@ -58,10 +58,13 @@ const WaitlistThankYou = () => {
 
           {/* Description */}
           <div className="space-y-4">
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              Welcome to the exclusive elure family. You'll be the first to experience our luxury Korean skincare collection.
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Welcome to the exclusive elure family.
             </p>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              You'll be the first to experience our luxury Korean skincare collection.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
               Watch your inbox for early access and your exclusive 25% discount.
             </p>
           </div>
