@@ -3,11 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
 import { Mail } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 export const WaitlistForm = () => {
   const [email, setEmail] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -15,12 +17,8 @@ export const WaitlistForm = () => {
     
     // Simulate form submission
     setTimeout(() => {
-      toast({
-        title: "Welcome to elure!",
-        description: "You've been added to our exclusive waitlist. We'll notify you when our products launch.",
-      });
-      setEmail("");
-      setIsSubmitting(false);
+      // Redirect to thank you page
+      navigate("/waitlist-thank-you");
     }, 1000);
   };
 
