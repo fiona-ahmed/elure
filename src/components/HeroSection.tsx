@@ -35,13 +35,16 @@ export const HeroSection = () => {
           </div>
 
           {/* Description */}
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">Be first to try elure's plumping lip balm and eye cream</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">Kiss dullness goodbye - introducing elure's plumping signature duo</p>
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button variant="hero" size="lg" onClick={scrollToWaitlist} className="font-semibold text-lg px-12">
-              Join Exclusive Waitlist
-            </Button>
+            <div className="text-center">
+              <Button variant="hero" size="lg" onClick={scrollToWaitlist} className="font-semibold text-lg px-12">
+                Join Exclusive Waitlist
+              </Button>
+              <p className="text-sm text-luxury font-medium mt-2">Exclusive 25% off for waitlist members</p>
+            </div>
             <Button variant="luxury-outline" size="lg" onClick={scrollToWaitlist} className="font-medium">
               Learn More
             </Button>
