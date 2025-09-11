@@ -37,4 +37,11 @@ export default defineConfig(({ mode }) => ({
     },
   },
   base: mode === "production" ? "/" : "/",
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
 }));
