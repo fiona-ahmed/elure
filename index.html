@@ -27,6 +27,20 @@
       gtag('config', 'G-3ZF8TEYZPK');
     </script>
 
+    <script>
+      // GitHub Pages SPA redirect handler
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+
     <meta property="og:title" content="elure - Premium Korean Skincare" />
     <meta property="og:description" content="Revolutionary Korean skincare with volufiline technology" />
     <meta property="og:type" content="website" />
