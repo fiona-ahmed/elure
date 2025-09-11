@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import heroBackground from "@/assets/hero-background-warm.jpg";
 import { ArrowDown } from "lucide-react";
 export const HeroSection = () => {
@@ -43,8 +44,8 @@ export const HeroSection = () => {
               <Button variant="hero" size="lg" onClick={scrollToWaitlist} className="font-semibold text-lg px-12">
                 Join Exclusive Waitlist
               </Button>
-              <Button variant="luxury-outline" size="lg" onClick={scrollToWaitlist} className="font-medium">
-                Learn More
+              <Button variant="luxury-outline" size="lg" className="font-medium" asChild>
+                <Link to="/shop">Shop Now</Link>
               </Button>
             </div>
             <p className="text-sm text-primary font-semibold text-center">Exclusive 25% off for waitlist members</p>
