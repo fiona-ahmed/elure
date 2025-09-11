@@ -17,7 +17,7 @@ export const ProductShowcase = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-serif font-semibold text-foreground mb-6">The Signature Duo</h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Discover our exclusive range of essentials. Formulated with Volufiline and Adifyline to nourish, enhance, and elevate your everyday skincare ritual.</p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Discover our exclusive range of essentials. Formulated with Volufiline and Adifyline for proven and long term brightening and plumping.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">

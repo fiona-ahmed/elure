@@ -19,7 +19,7 @@ export const VoluflineSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-serif font-semibold text-foreground mb-6">Our Research Backed Formula</h2>
           
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Our treatments feature clinically-proven active ingredients: Volufiline and Adifyline peptides, scientifically formulated to work synergistically for enhanced efficacy and visible results.</p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Our treatments feature clinical proven active ingredients Volufiline (plant extract) and Adifyline (peptide), formulated by an award winning Korean research team.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

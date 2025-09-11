@@ -35,7 +35,7 @@ export const HeroSection = () => {
           </div>
 
           {/* Description */}
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">Be among the first to experience elure</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">Be first to try elure's plumping lip balm and eye cream</p>
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
