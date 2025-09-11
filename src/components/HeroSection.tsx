@@ -38,16 +38,16 @@ export const HeroSection = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">Kiss dullness goodbye - introducing elure's plumping signature duo</p>
 
           {/* CTA */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <div className="text-center">
+          <div className="space-y-4 pt-8">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button variant="hero" size="lg" onClick={scrollToWaitlist} className="font-semibold text-lg px-12">
                 Join Exclusive Waitlist
               </Button>
-              <p className="text-sm text-primary font-semibold mt-2">Exclusive 25% off for waitlist members</p>
+              <Button variant="luxury-outline" size="lg" onClick={scrollToWaitlist} className="font-medium">
+                Learn More
+              </Button>
             </div>
-            <Button variant="luxury-outline" size="lg" onClick={scrollToWaitlist} className="font-medium">
-              Learn More
-            </Button>
+            <p className="text-sm text-primary font-semibold text-center">Exclusive 25% off for waitlist members</p>
           </div>
 
           {/* Scroll indicator */}
