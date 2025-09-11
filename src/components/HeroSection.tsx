@@ -40,12 +40,9 @@ export const HeroSection = () => {
 
           {/* CTA */}
           <div className="space-y-4 pt-8">
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex justify-center">
               <Button variant="hero" size="lg" onClick={scrollToWaitlist} className="font-semibold text-lg px-12">
                 Join Exclusive Waitlist
-              </Button>
-              <Button variant="luxury-outline" size="lg" className="font-medium" asChild>
-                <Link to="/shop">Shop Now</Link>
               </Button>
             </div>
             <p className="text-sm text-primary font-semibold text-center">Exclusive 25% off for waitlist members</p>
