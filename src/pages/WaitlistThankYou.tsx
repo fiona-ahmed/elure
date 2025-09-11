@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Check, Copy, Share2, Gift } from "lucide-react";
+import { Check, Copy, Share2 } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import heroBackground from "@/assets/hero-background-warm.jpg";
@@ -70,8 +70,7 @@ const WaitlistThankYou = () => {
           <Card className="bg-card/80 backdrop-blur-sm border-luxury/20 p-8 shadow-luxury">
             <div className="space-y-6">
               {/* Share Header */}
-              <div className="flex items-center justify-center gap-3">
-                <Gift className="text-luxury" size={24} />
+              <div className="flex items-center justify-center">
                 <h2 className="text-2xl font-serif font-medium text-foreground">
                   Share Waitlist for More Rewards
                 </h2>
