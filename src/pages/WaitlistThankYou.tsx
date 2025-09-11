@@ -64,9 +64,6 @@ const WaitlistThankYou = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
               You'll be the first to experience our luxury Korean skincare collection.
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Watch your inbox for early access and your exclusive 25% discount.
-            </p>
           </div>
 
           {/* Share Section */}
