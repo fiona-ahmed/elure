@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Check, Copy, Share2 } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { Link } from "react-router-dom";
 import heroBackground from "@/assets/hero-background-warm.jpg";
 
 const WaitlistThankYou = () => {
@@ -116,9 +117,9 @@ const WaitlistThankYou = () => {
           {/* Back to Home */}
           <div className="pt-4">
             <Button variant="luxury-outline" size="lg" asChild>
-              <a href="/" className="font-medium">
+              <Link to="/" className="font-medium">
                 Back to elure
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
