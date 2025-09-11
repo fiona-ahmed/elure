@@ -2,13 +2,13 @@ import { Sparkles } from "lucide-react";
 const products = [{
   name: "Plumping Lip Treatment",
   description: "Volumizing lip treatment with clinically-proven peptides to gradually enhance natural lip volume and provide lasting hydration.",
-  image: "/lovable-uploads/4963e39b-9203-42e0-9b10-80f7562b2db2.png",
+  image: `${import.meta.env.BASE_URL}lovable-uploads/4963e39b-9203-42e0-9b10-80f7562b2db2.png`,
   size: "15ml",
   benefits: ["Gradually enhances lip volume and fullness", "Provides deep, long-lasting hydration", "Smooths and softens lip texture"]
 }, {
   name: "Nourishing Eye Treatment",
   description: "Premium anti-aging eye treatment combining powerful peptides with botanical extracts to rejuvenate and restore the eye contour.",
-  image: "/lovable-uploads/be499a90-4643-487d-977b-8105a331515d.png",
+  image: `${import.meta.env.BASE_URL}lovable-uploads/be499a90-4643-487d-977b-8105a331515d.png`,
   size: "20ml",
   benefits: ["Reduces appearance of fine lines and wrinkles", "Diminishes dark circles and puffiness", "Firms and tightens delicate eye area skin"]
 }];
