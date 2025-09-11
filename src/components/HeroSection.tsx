@@ -43,7 +43,7 @@ export const HeroSection = () => {
               <Button variant="hero" size="lg" onClick={scrollToWaitlist} className="font-semibold text-lg px-12">
                 Join Exclusive Waitlist
               </Button>
-              <p className="text-sm text-luxury font-medium mt-2">Exclusive 25% off for waitlist members</p>
+              <p className="text-sm text-primary font-semibold mt-2">Exclusive 25% off for waitlist members</p>
             </div>
             <Button variant="luxury-outline" size="lg" onClick={scrollToWaitlist} className="font-medium">
               Learn More
