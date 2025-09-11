@@ -9,7 +9,7 @@ const WaitlistThankYou = () => {
   const [copied, setCopied] = useState(false);
   const { toast } = useToast();
   
-  const shareUrl = "https://elure.lovable.app";
+  const shareUrl = "https://elureskin.co";
   
   const handleCopyLink = async () => {
     try {
