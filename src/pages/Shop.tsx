@@ -20,7 +20,7 @@ const products = [
       "Provides deep, long-lasting hydration", 
       "Smooths and softens lip texture"
     ],
-    ingredients: "Volufiline, Hyaluronic Acid, Peptide Complex",
+    ingredients: "Volufiline, Adifyline, Hyaluronic Acid, Peptide Complex",
     inStock: true
   },
   {
@@ -38,7 +38,7 @@ const products = [
       "Diminishes dark circles and puffiness",
       "Firms and tightens delicate eye area skin"
     ],
-    ingredients: "Adifyline, Retinol, Vitamin C, Botanical Extracts",
+    ingredients: "Adifyline, Volufiline, Botanical Extracts",
     inStock: true
   }
 ];
