@@ -16,7 +16,7 @@ export const WaitlistForm = () => {
     setIsSubmitting(true);
     
     try {
-      const baseUrl = "https://script.google.com/macros/s/AKfycbzABuSPW1O1jLEVC_zWAND6qXtu6McZWI2qEC_Znt_yUfWH0v-pLJYNO6BQHm95pS6w_Q/exec";
+      const baseUrl = "https://script.google.com/macros/s/AKfycby3HgZW1j1Kk4I2OkkxTH0YpcYlFj6zvW6J7PH9omL9kkpoEpULYfNFq1JbH9xg1KgV/exec";
       const params = new URLSearchParams({
         email: email.trim(),
         timestamp: new Date().toISOString(),
