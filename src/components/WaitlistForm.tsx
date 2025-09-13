@@ -21,7 +21,7 @@ export const WaitlistForm = () => {
       formData.append("timestamp", new Date().toISOString());
       formData.append("source", "waitlist_form");
 
-      await fetch("https://script.google.com/macros/s/AKfycbzqYlt1uyh1SgKESataXb8ytAB-0eFmjfrLQFPhn_CLcO2wFGk0dW0AFbhEwVNaV-Pz9Q/exec", {
+      await fetch("https://script.google.com/macros/s/AKfycbzABuSPW1O1jLEVC_zWAND6qXtu6McZWI2qEC_Znt_yUfWH0v-pLJYNO6BQHm95pS6w_Q/exec", {
         method: "POST",
         mode: "no-cors",
         body: formData,
