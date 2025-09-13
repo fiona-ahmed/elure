@@ -19,7 +19,7 @@ export const WaitlistForm = () => {
       const response = await fetch("https://script.google.com/macros/s/AKfycbzqYlt1uyh1SgKESataXb8ytAB-0eFmjfrLQFPhn_CLcO2wFGk0dW0AFbhEwVNaV-Pz9Q/exec", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "text/plain;charset=utf-8",
         },
         body: JSON.stringify({
           email: email,
