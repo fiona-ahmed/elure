@@ -16,27 +16,23 @@ export const WaitlistForm = () => {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbzqYlt1uyh1SgKESataXb8ytAB-0eFmjfrLQFPhn_CLcO2wFGk0dW0AFbhEwVNaV-Pz9Q/exec", {
+      const formData = new FormData();
+      formData.append("email", email);
+      formData.append("timestamp", new Date().toISOString());
+      formData.append("source", "waitlist_form");
+
+      await fetch("https://script.google.com/macros/s/AKfycbzqYlt1uyh1SgKESataXb8ytAB-0eFmjfrLQFPhn_CLcO2wFGk0dW0AFbhEwVNaV-Pz9Q/exec", {
         method: "POST",
-        headers: {
-          "Content-Type": "text/plain;charset=utf-8",
-        },
-        body: JSON.stringify({
-          email: email,
-          timestamp: new Date().toISOString(),
-          source: "waitlist_form"
-        }),
+        mode: "no-cors",
+        body: formData,
       });
       
-      if (response.ok) {
-        toast({
-          title: "Success!",
-          description: "You've been added to the waitlist.",
-        });
-        navigate("/waitlist-thank-you");
-      } else {
-        throw new Error("Failed to submit");
-      }
+      toast({
+        title: "Success!",
+        description: "You've been added to the waitlist.",
+      });
+      navigate("/waitlist-thank-you");
+
     } catch (error) {
       toast({
         title: "Error",
