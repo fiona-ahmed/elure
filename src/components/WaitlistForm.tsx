@@ -16,15 +16,17 @@ export const WaitlistForm = () => {
     setIsSubmitting(true);
     
     try {
-      const formData = new FormData();
-      formData.append("email", email.trim());
-      formData.append("timestamp", new Date().toISOString());
-      formData.append("source", "waitlist_form");
+      const baseUrl = "https://script.google.com/macros/s/AKfycbzABuSPW1O1jLEVC_zWAND6qXtu6McZWI2qEC_Znt_yUfWH0v-pLJYNO6BQHm95pS6w_Q/exec";
+      const params = new URLSearchParams({
+        email: email.trim(),
+        timestamp: new Date().toISOString(),
+        source: "waitlist_form",
+      });
+      const url = `${baseUrl}?${params.toString()}`;
 
-      await fetch("https://script.google.com/macros/s/AKfycbzABuSPW1O1jLEVC_zWAND6qXtu6McZWI2qEC_Znt_yUfWH0v-pLJYNO6BQHm95pS6w_Q/exec", {
+      await fetch(url, {
         method: "POST",
         mode: "no-cors",
-        body: formData,
         credentials: "omit",
         cache: "no-cache",
       });
