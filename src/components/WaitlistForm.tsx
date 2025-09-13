@@ -16,18 +16,19 @@ export const WaitlistForm = () => {
     setIsSubmitting(true);
     
     try {
-      const payload = {
-        email: email,
+      const payload = new URLSearchParams({
+        email,
         timestamp: new Date().toISOString(),
-        source: "waitlist_form"
-      };
+        source: "waitlist_form",
+      });
 
       await fetch("https://script.google.com/macros/s/AKfycbzABuSPW1O1jLEVC_zWAND6qXtu6McZWI2qEC_Znt_yUfWH0v-pLJYNO6BQHm95pS6w_Q/exec", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: JSON.stringify(payload),
+        mode: "no-cors",
+        body: payload.toString(),
       });
       
       toast({
