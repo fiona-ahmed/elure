@@ -18,6 +18,7 @@ export const WaitlistForm = () => {
     try {
       const payload = new URLSearchParams({
         email,
+        Email: email,
         timestamp: new Date().toISOString(),
         source: "waitlist_form",
       });
