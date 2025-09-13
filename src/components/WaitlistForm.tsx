@@ -15,11 +15,37 @@ export const WaitlistForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      // Redirect to thank you page
-      navigate("/waitlist-thank-you");
-    }, 1000);
+    try {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbzqYlt1uyh1SgKESataXb8ytAB-0eFmjfrLQFPhn_CLcO2wFGk0dW0AFbhEwVNaV-Pz9Q/exec", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: email,
+          timestamp: new Date().toISOString(),
+          source: "waitlist_form"
+        }),
+      });
+      
+      if (response.ok) {
+        toast({
+          title: "Success!",
+          description: "You've been added to the waitlist.",
+        });
+        navigate("/waitlist-thank-you");
+      } else {
+        throw new Error("Failed to submit");
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to join waitlist. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
